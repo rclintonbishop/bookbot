@@ -1,2 +1,2 @@
 # bookbot
-for boot.dev
+BookBot is for a project on boot.dev
