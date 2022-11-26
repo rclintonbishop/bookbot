@@ -17,7 +17,10 @@ def count_characters(book_string):
 
     return(character_counts)
 
-
+#given a file path (hopefully to a text file!), prints a report to console
+#the report currently includes:
+## 1. the number of words delimited by whitespace
+## 2. a list in descending order of frequency of each alphabetic letter that appears in the text
 def generate_report(book_path):
     with open(book_path) as f:
         file_contents = f.read()
